@@ -1,0 +1,472 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+
+.site-content{
+    background-image: url('images/background4.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.site-title{
+    margin-top: 30% ;
+    margin-bottom: 6%;
+    font-size: 40px;
+    font-family: 'Calligraffitti', cursive;
+}
+.site-desc{
+    font-size: 20px;
+    padding-left: 15%;
+    padding-bottom: 15%;
+    font-family: 'Calligraffitti', cursive;
+}
+
+
+#start a{
+  text-decoration: none;
+}
+#start a:hover{
+  font-family: 'Pacifico', cursive ;
+  
+}
+.section-1 .heading-1{
+    font-family: 'Pacifico', cursive;
+    color: #a28089;
+    padding-bottom: 1%;
+}
+.section-1 .heading-2{
+    margin-top: 2%;
+    font-family: 'Calligraffitti', cursive;
+    color:  #a28089;
+    
+}
+.section-9 .card-text{
+    color: rgba(0, 0, 0, 0.651);
+}
+.section-9 .heading-1{
+  font-family: 'Pacifico', cursive;
+  color: #a28089;
+  padding-bottom: 1%;
+}
+
+
+.card{
+   width: 20rem; 
+}
+.section-2{
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.section-2 .container-fluid{
+    background-image: url('images/blue.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    width: 80%;
+}
+
+.section-2 .para{
+    width: 80%;
+    margin-bottom: 15%;
+}
+
+
+
+.section-3{
+    margin-top: 3%;
+}
+
+.section-3 i{
+    color: #ffa8B6;
+}
+.section-3 p{
+    color: darkgray;
+}
+
+.section-4{
+    background-image: linear-gradient(90deg, #51e2f57a,#a2808980);
+}
+
+.section-4 .row .col-md-7, .col-md-5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#info-2{
+  margin-top: 6%;
+}
+ #info-2 button{
+   
+   width: 29rem; 
+   background-color: white;
+   color: #024a75;
+   font-family: 'Pacifico', cursive;
+ }
+
+.social {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section-8 {
+    padding: 20vmin 0vmin;
+  }
+  
+  .section-8 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+  }
+  
+  .section-8 .row .col-md-6:last-child {
+    position: relative;
+  }
+  
+  .section-8 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: linear-gradient(rgba(0, 255, 255, 0.212),rgba(238, 130, 238, 0.219));
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .section-8 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+  }
+  
+  .section-8 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url("./images/background4.jpg");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+  }
+  
+  .cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+  
+  .cover .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 255, 255, 0.253);
+    padding-top: 19vmin;
+  }
+  .cover .content > h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 6vmin;
+    color: #024a75;
+  }
+  
+  .cover .content > p {
+    font-size: 2vmin;
+    color: #e5e5e5;
+  }
+  
+  .numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(238, 130, 238, 0.247);
+  }
+  
+  .numbers {
+    margin-top: -15vmin;
+  }
+  
+  .numbers .rect h6 {
+    font-size: 5rem;
+    color: aquamarine;
+  }
+  
+  
+  
+  .purchase > h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+  }
+  
+  .purchase > p {
+    color: black;
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+  }
+  
+  .purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin 3vmin;
+  }
+  
+  .cards div {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cards .title {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4em 2.5em;
+    font-size: 2vmin;
+  }
+  
+  .card .card-text {
+    padding: 2.5rem 3rem;
+    color: rgba(5, 5, 5, 0.822);
+  }
+  
+  .card-body .pricing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+  }
+  
+  .card-body .pricing > h1 {
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+  }
+
+
+  
+
+
+  #fixed{
+    background: #9bd8d5;
+   
+    padding-bottom: 1.25rem;
+
+  }
+  #fixed a{
+    color: black;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+     border-left: rgba(0, 0, 0, 0.171) solid 1px;
+    border-right:  rgba(0, 0, 0, 0.171) solid 1px;
+    text-decoration: none;
+  }
+  #fixed a:hover{
+    background-color: #a2818d33;
+  }
+
+  
+.section-10 {
+  padding: 20vmin 0vmin;
+}
+
+.section-10 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+}
+
+.section-10 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-10 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-10 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-10 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#genre{
+  background-color: rgba(0, 255, 255, 0.13);
+  border-radius: 2%;
+  margin-top: 5%;
+}
+
+#genre a {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: aqua;
+  padding: 2.5rem;
+  text-decoration: none;
+}
+#genre a:hover{
+  color: #a2818d;
+}
+
+#register h1{
+  font-family: 'Pacifico', cursive;
+  color: #024a75;
+}
+#register button{
+  background-color: #024a75;
+  color: white;
+  font-size: 20px;
+}
+#register p a {
+  font-family: 'Pacifico', cursive;
+  color: #a28089;
+  font-size: 25px;
+}
+
+#login h1{
+  font-family: 'Pacifico', cursive;
+  color: #024a75;
+}
+#login button{
+  background-color: #024a75;
+  color: white;
+  font-size: 20px;
+}
+#login p a {
+  font-family: 'Pacifico', cursive;
+  color: #a28089;
+  font-size: 25px;
+}
+
+
+#top{
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+  #blue {
+    width: 300px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:1000px){
+  
+  #articles{
+    width: 14rem;
+    
+  }
+  #blue {
+    width: 300px;
+  }
+  #des{
+    display: none;
+  }
+  #genre{
+   font-size: 20px;
+  }
+}
+
+@media screen and (max-width:850px){
+  .section-1 .card{
+      width: 12rem;
+  }
+  #articles{
+    width: 14rem;
+  }
+  #des{
+    display: none;
+  }
+  .kim{
+    display: none;
+  }
+  #genre{
+    font-size: 15px;
+   }
+}
+
+
+@media screen and (max-width:790px){
+    .section-1 .card{
+        width: 12rem;
+    }
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+    #blue {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+    }
+    #genre{
+      font-size: 5px;
+     }
+
+}

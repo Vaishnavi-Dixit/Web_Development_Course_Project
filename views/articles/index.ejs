@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../style.css" rel="stylesheet" type="text/css">
+
+  <title>Blog</title>
+</head>
+<body>
+
+  <div class="container-fluid p-0" id="top">
+    <div class="site-content" style="height: 32rem;">
+        <div class="d-flex justify-content-center" id="start">
+            <div class="d-flex  flex-column">
+                <h1 class="site-title">So many books soo little time</h1>
+                <a href="#access"><button  type="button" class="btn  btn-block my-2" style="background-color: rgba(255, 255, 255, 0.836);">Get Started</button></a>
+                <a href="#info"><button type="button" class="btn btn-block my-2" style="background-color: #add3d6d7;">Explore!!</button></a>
+                
+              </div>
+              
+        </div>
+       
+    </div>
+
+<div class="section-1">
+  <div class="container text-center">
+      <h1 class="heading-1">We are here <span style="color: #90beba;;">for you</span></h1>
+        <h4 class="heading-2">Look through the reviews and recoomended books by our editor's</h4>
+     </div>
+</div>  
+</div>
+</div>
+
+
+
+      
+<div class="section-3" id="info">
+  <div class="container-fluid">
+   
+ <div class="row">
+     <div class="col-md-4">
+         <div class="d-flex flex-row">
+            <i class="fa fa-clock-o fa-3x m-2"></i> 
+            <div class="d-flex flex-column">
+               <h3 class="m-2">Save Time</h3> 
+               <p class="m-2">
+                 Searching for a right book is often time consuming and many times we end up with a wrong one . So save the clock and read the review or recommended and finish the last page with a satisfaction.
+               </p>
+            </div>
+         </div>
+     </div>
+     <div class="col-md-4">
+       <div class="d-flex flex-row">
+          <i class="fa fa-plus fa-3x m-2"></i> 
+          <div class="d-flex flex-column">
+             <h3 class="m-2">Share Your Review</h3> 
+             <p class="m-2">
+               Share your experiences and valuable review. Beauty lies in the beholder's eyes. Suggestions and appreciations are paths for perfection
+             </p>
+          </div>
+       </div>
+   </div>
+   <div class="col-md-4">
+       <div class="d-flex flex-row">
+          <i class="fa fa-users fa-3x m-2"></i> 
+          <div class="d-flex flex-column">
+             <h3 class="m-2">Be a part</h3> 
+             <p class="m-2">
+               SignUp and see what are editor's think is the "trend". Browse through categories and find your perfect pair ;)
+             </p>
+          </div>
+       </div>
+   </div>
+
+</div> 
+</div>
+
+<div class="section-2">
+  <div class="container-fluid">
+      <div class="d-flex justify-content-end">
+         <div class="d-flex flex-column">
+             <h1 class="heading-1">
+              What Are You Waiting For??
+             </h1>
+             <a href="#access"><button  type="button" class="btn  btn-block my-2" style="background-color: #6bb0cd;">Get Started</button></a>
+
+         </div> 
+      </div>
+  </div>
+</div>
+
+
+<div class="section-4" style="margin-top: 5%;" id="access">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-7">
+             <img src="images/library.jpg" alt="image" width="590" id="blue"> 
+          </div>
+          <div class="col-md-5">
+              <h1 class="text" style="color: #024a75;  font-family: 'Pacifico', cursive;">What Do YOu Wanna Do Today ?</h1>
+              <div class="d-flex justify-content-center" id="info-2">
+  
+                <a href="/users/register"> <button type="button" class="btn btn-secondary">View Our Editors' Pick</button></a>
+              
+              </div>
+              <div class="d-flex justify-content-center" id="info-2">
+  
+                <a href="#books"><button type="button" class="btn btn-secondary" >Move To Reviews </button></a>
+                
+             </div>
+              
+              
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div class="section-1" style="margin-top: 3%;">
+  <div class="container text-center">
+      <h1 class="heading-1"> <span style="color: #024a75;">All Articles</span></h1>
+      
+     </div>
+</div>
+
+
+
+
+  <div class="container" id="books">
+    <div class="d-flex justify-content-center">
+  
+      <a href="/articles/new"> <button type="button" class="btn btn-secondary" style="width: 33rem; background-color: #035e92dc; margin-bottom: 2%;">Add Your Own Review</button></a>
+    
+    </div>
+    <div class="row justify-content-center text-center" style="background-color: #6bb0cd75; padding: 5%;">
+  <% articles.forEach(article => { %>
+  <div class="col-md-4" Style="margin-bottom: 5%;">
+      <div class="card" id="articles">
+         <div class="card-body">
+             <h4 class="card-title"><%= article.title %></h4>
+             <div class="card-subtitle text-muted mb-2">
+              <%= article.createdAt.toLocaleDateString() %>
+            </div>
+             <p class="card-text"><%= article.description %> </p>
+             <a href="articles/<%= article.slug %>" class="btn btn-primary">Read More</a>
+          <a href="articles/edit/<%= article.id %>" class="btn btn-info">Edit</a>
+          <form action="/articles/<%= article.id %>?_method=DELETE" method="POST" class="d-inline">
+            <button type="submit" class="btn btn-danger">Delete</button>
+          </form>
+         </div>
+      </div>
+  </div>
+  
+<% }) %>
+</div>
+
+
+
+ 
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
